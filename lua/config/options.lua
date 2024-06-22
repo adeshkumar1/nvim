@@ -44,3 +44,17 @@ vim.opt.foldcolumn = "1" -- '0' is not bad
 vim.opt.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
 vim.opt.foldlevelstart = 99
 vim.opt.foldenable = true
+
+-- require("toggleterm").setup({
+--   size = 20 | function(term)
+--     if term.direction == "horizontal" then
+--       return vim.opt.columns * 0.4
+--     elseif term.direction == "vertical" then
+--       return 50
+--     end
+--   end,
+--   open_mapping = [[<C-\>]],
+--   terminal_mappings = true,
+--   close_on_exit = true,
+--   hide_numbers = true,
+-- })
