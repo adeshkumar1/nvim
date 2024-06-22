@@ -24,4 +24,4 @@ keymap.set("n", "<leader>kl", "za", opts)
 
 --Togle Terminal
 keymap.set("n", "<leader>h", ":ToggleTerm<Return>", opts)
-keymap.set("t", "<leader>h", "<C-d>", opts)
+keymap.set("t", "<leader>h", "<C-\\><C-n>:ToggleTerm<Return>", opts)
