@@ -25,8 +25,8 @@ vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
 vim.opt.smarttab = true
 vim.opt.breakindent = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
+vim.opt.shiftwidth = 3
+vim.opt.tabstop = 3
 vim.opt.wrap = false
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.path:append({ "**" })
@@ -58,3 +58,4 @@ vim.opt.foldenable = true
 --   close_on_exit = true,
 --   hide_numbers = true,
 -- })
+--
