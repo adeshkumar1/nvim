@@ -5,8 +5,15 @@ return {
       -- stylua: ignore
       {
         "<leader>ff",
-        function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
-        desc = "Find Plugin File",
+        function() require("telescope.builtin").find_files({ cwd = vim.fn.getcwd()}) end,
+        desc = "Find File",
+      },
+      {
+         "<leader>fs",
+         function()
+            require("telescope.builtin").live_grep({ cwd = vim.fn.getcwd() })
+         end,
+         desc = "Find In File",
       },
    },
    -- change some options
