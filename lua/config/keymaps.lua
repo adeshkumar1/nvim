@@ -28,3 +28,5 @@ keymap.set("t", "<leader>h", "<C-\\><C-n>:ToggleTerm<Return>", opts)
 
 --Normal Mode in Terminal
 keymap.set("t", "<Esc>", "<C-\\><C-n>", opts)
+
+keymap.set("n", ";", ":", { noremap = true, silent = true })
