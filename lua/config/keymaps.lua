@@ -9,7 +9,7 @@ keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
 -- Toggle Tree
-keymap.set("n", "<C-n>", ":Neotree toggle<Return>", opts)
+-- keymap.set("n", "<C-n>", ":Neotree toggle<Return>", opts)
 
 ---Select all
 keymap.set("n", "<C-a>", "ggVG")
