@@ -10,7 +10,7 @@ keymap.set("n", "-", "<C-x>")
 
 -- Toggle Tree
 -- keymap.set("n", "<C-n>", ":Neotree toggle<Return>", opts)
-
+vim.keymap.set("n", "<C-n>", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 ---Select all
 keymap.set("n", "<C-a>", "ggVG")
 
