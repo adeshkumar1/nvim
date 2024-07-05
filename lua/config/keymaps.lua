@@ -15,7 +15,7 @@ keymap.set("n", "-", "<C-x>")
 keymap.set("n", "<C-a>", "ggVG")
 
 ---Go To Next Diagnostic
-keymap.set("n", "<C-d>", function()
+keymap.set("n", "<C-e>", function()
    vim.diagnostic.goto_next()
 end, opts)
 
