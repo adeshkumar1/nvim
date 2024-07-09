@@ -1,11 +1,13 @@
 return {
    {
-      "folke/tokyonight.nvim",
+      "catppuccin/nvim",
+      name = "catppuccin",
       priority = 1000,
-      opts = {
-         -- use the night style
-         style = "night",
-         transparent = true,
-      },
+      opts = function()
+         require("catppuccin").setup({
+            flavour = "latte",
+            transparent_background = true,
+         })
+      end,
    },
 }

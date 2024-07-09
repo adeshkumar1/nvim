@@ -12,7 +12,7 @@ keymap.set("n", "-", "<C-x>")
 -- keymap.set("n", "<C-n>", ":Neotree toggle<Return>", opts)
 -- vim.keymap.set("n", "<C-n>", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 ---Select all
-keymap.set("n", "<C-a>", "ggVG")
+keymap.set("n", "<C-a>", "ggVG", opts)
 
 ---Go To Next Diagnostic
 keymap.set("n", "<C-e>", function()
@@ -29,4 +29,4 @@ keymap.set("t", "<leader>h", "<C-\\><C-n>:ToggleTerm<Return>", opts)
 --Normal Mode in Terminal
 keymap.set("t", "<Esc>", "<C-\\><C-n>", opts)
 
-keymap.set("n", ";", ":", { noremap = true, silent = true })
+keymap.set("n", ";", ":", opts)
