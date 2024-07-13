@@ -1,5 +1,5 @@
 return {
+   enabled = true,
    "stevearc/conform.nvim",
-   disabled = true,
    opts = {},
 }
