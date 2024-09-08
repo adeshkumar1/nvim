@@ -23,8 +23,8 @@ end, opts)
 keymap.set("n", "<leader>kl", "za", opts)
 
 --Togle Terminal
-keymap.set("n", "<leader>h", ":ToggleTerm<Return>", opts)
-keymap.set("t", "<leader>h", "<C-\\><C-n>:ToggleTerm<Return>", opts)
+keymap.set("n", "<A-h>", ":ToggleTerm<Return>", opts)
+keymap.set("t", "<A-h>", "<C-\\><C-n>:ToggleTerm<Return>", opts)
 
 --Normal Mode in Terminal
 keymap.set("t", "<Esc>", "<C-\\><C-n>", opts)
