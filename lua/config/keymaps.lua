@@ -26,6 +26,4 @@ keymap.set("t", "<A-h>", "<C-\\><C-n>:ToggleTerm<Return>", opts)
 --Normal Mode in Terminal
 keymap.set("t", "<Esc>", "<C-\\><C-n>", opts)
 
-keymap.set("n", ";", ":", opts)
-
 keymap.set("n", "<leader>fs", ":FzfLua live_grep <Return>", opts)
