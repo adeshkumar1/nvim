@@ -1,14 +1,28 @@
 return {
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    config = function()
-      require("rose-pine").setup({
-        styles = {
-          transparency = false,
-        },
-      })
-      vim.cmd("colorscheme rose-pine")
-    end,
-  },
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   opts = {
+  --     styles = {
+  --       comments = { italic = false, bold = true },
+  --       keywords = { italic = false, bold = true },
+  --       functions = { italic = false, bold = true },
+  --       variables = { italic = false, bold = true },
+  --       strings = { italic = false, bold = true },
+  --       types = { italic = false, bold = true },
+  --       numbers = { italic = false, bold = true },
+  --       operators = { italic = false, bold = true },
+  --       conditionals = { italic = false, bold = true },
+  --       constants = { italic = false, bold = true },
+  --       properties = { italic = false, bold = true },
+  --       loops = { italic = false, bold = true },
+  --       booleans = { italic = false, bold = true },
+  --       fields = { italic = false, bold = true },
+  --       sidebars = "dark",
+  --       floats = "dark",
+  --     },
+  --   },
+  -- },
+  -- { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = {} },
 }

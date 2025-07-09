@@ -37,13 +37,16 @@ vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
 
+vim.g.tmux_navigator_no_wrap = 1
+
 -- Add asterisks in block comments
 vim.opt.formatoptions:append({ "r" })
 
 --Code Folding
-vim.opt.foldcolumn = "1" -- '0' is not bad
+vim.opt.foldcolumn = "0" -- '0' is not bad
 vim.opt.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
 vim.opt.foldlevelstart = 99
 vim.opt.foldenable = true
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.ua
 -- Add any additional options here
+vim.opt.guicursor = "n-v-i-c:block"
